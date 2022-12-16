@@ -1,0 +1,147 @@
+/*Gotham*/
+@font-face{
+  font-family: Gotham;
+  src:url('https://th3tasigma.github.io/fonts/GothamMedium.woff') format('woff');
+}
+
+/*Bahnschrift*/
+@font-face {
+	font-family: Bahnschrift;
+	src:url('https://th3tasigma.github.io/fonts/bahnschrift.woff') format('woff');
+}
+
+/*Futura Canal*/
+@font-face {
+	font-family: Futura-Canal;
+	src:url('https://th3tasigma.github.io/fonts/FuturaCanal-Light.woff') format('woff');
+}
+
+/*FranceTV Brown*/
+@font-face {
+	font-family: FranceTV-Brown;
+	src:url('https://th3tasigma.github.io/fonts/FranceTVBrown-Regular.woff') format('woff');
+}
+
+/*Gotham black*/
+@font-face {
+	font-family: Gotham-Black;
+	src:url('https://th3tasigma.github.io/fonts/Gotham-Black.woff') format('woff');
+}
+
+/*DS-Digital*/
+@font-face {
+	font-family: DS-Digital;
+	src:url('https://th3tasigma.github.io/fonts/ds-digit-bold-italic.woff') format('woff');
+}
+
+bonjour {
+	font-family: Gotham-Black;
+}
+
+numero {
+	font-family: Bahnschrift;
+}
+
+texte {
+	font-family: Futura-Canal;
+}
+
+texte2 {
+	font-family: FranceTV-Brown;
+}
+
+hora {
+	font-family: DS-Digital;
+	color: red;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+	vertical-align: center;
+	width:max-content;
+}
+
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+#地図 {
+	width: 800px;
+	height: 620px;
+	border: 1px solid #000;
+}
+
+.listecouv {
+	justify-content:center;
+	display:inline-flex;
+	flex-flow: row wrap; 
+	/* display: grid; */
+	/* grid-template-columns: auto auto auto auto auto; */
+	/* column-gap:1em; */
+	/* row-gap: 1em; */
+	gap:1em;
+	flex-shrink:1;
+}
+
+.valide {
+	position: absolute;
+	top: 1.5px;
+	left: 1.5px;
+}
+
+.tooltip {
+    position: relative;
+    display: block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+	border-color:#000;
+	border: solid 1px;
+    padding: 8px;
+    
+    /* Position the tooltip */
+	margin-top:12px;
+	margin-left:12px;
+	margin-bottom:12px;
+	margin-right:12px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+ 
