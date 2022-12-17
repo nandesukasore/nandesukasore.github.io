@@ -1,37 +1,37 @@
 /*Gotham*/
 @font-face{
   font-family: Gotham;
-  src:url('https://th3tasigma.github.io/fonts/GothamMedium.woff') format('woff');
+  src:url('../fonts/GothamMedium.woff') format('woff');
 }
 
 /*Bahnschrift*/
 @font-face {
 	font-family: Bahnschrift;
-	src:url('https://th3tasigma.github.io/fonts/bahnschrift.woff') format('woff');
+	src:url('../fonts/bahnschrift.woff') format('woff');
 }
 
 /*Futura Canal*/
 @font-face {
 	font-family: Futura-Canal;
-	src:url('https://th3tasigma.github.io/fonts/FuturaCanal-Light.woff') format('woff');
+	src:url('../fonts/FuturaCanal-Light.woff') format('woff');
 }
 
 /*FranceTV Brown*/
 @font-face {
 	font-family: FranceTV-Brown;
-	src:url('https://th3tasigma.github.io/fonts/FranceTVBrown-Regular.woff') format('woff');
+	src:url('../fonts/FranceTVBrown-Regular.woff') format('woff');
 }
 
 /*Gotham black*/
 @font-face {
 	font-family: Gotham-Black;
-	src:url('https://th3tasigma.github.io/fonts/Gotham-Black.woff') format('woff');
+	src:url('../fonts/Gotham-Black.woff') format('woff');
 }
 
 /*DS-Digital*/
 @font-face {
 	font-family: DS-Digital;
-	src:url('https://th3tasigma.github.io/fonts/ds-digit-bold-italic.woff') format('woff');
+	src:url('../fonts/ds-digit-bold-italic.woff') format('woff');
 }
 
 bonjour {
